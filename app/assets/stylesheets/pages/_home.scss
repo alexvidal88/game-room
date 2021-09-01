@@ -1,1 +1,10 @@
 // Specific CSS for your home-page
+.home {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('https://res.cloudinary.com/batch-588/image/upload/v1630476590/casino-neon-background-with-roulette-slot-machine-poker-chips-falling-premium-photo_195742-683_q54vpi.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
