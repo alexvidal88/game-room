@@ -1,12 +1,13 @@
-const crash = document.querySelector(".w");
-const kick  = document.querySelector(".a");
-const snare = document.querySelector(".s");
-const tom1 = document.querySelector(".d");
-const tom2 = document.querySelector(".j");
-const tom3 = document.querySelector(".k");
-const tom4 = document.querySelector(".l");
 
 const drums = () => {
+  const crash = document.querySelector(".w");
+  const kick  = document.querySelector(".a");
+  const snare = document.querySelector(".s");
+  const tom1 = document.querySelector(".d");
+  const tom2 = document.querySelector(".j");
+  const tom3 = document.querySelector(".k");
+  const tom4 = document.querySelector(".l");
+
   if(crash || kick || snare || tom1 || tom2 || tom3 || tom4){
     crash.addEventListener("click", () => {
     const crashSound = new Audio('https://res.cloudinary.com/batch-588/video/upload/v1630543769/drum%20kit/crash_zh16oa.mp3');
