@@ -1,6 +1,24 @@
 <div class="home">
-  <h1 class="home-title">Game Room</h1>
-  <div class="home-cards">
+  <div class="home-block">
+    <h1 class="home-title">🂡 The Game Room 🂱</h1>
+    <div class="home-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2020-08/cube-689618_1920.jpg?itok=s6GmdgEZ" class="card-img-top dice-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Roll the Dice</h5>
+          <p class="card-text">We need two players to see wich one has the biggest score on the dice. </p>
+          <%= link_to "Let's go!", dice_path, class: 'btn btn-primary'  %>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJ0zbYe_lVr9MU9I0AMhilv9tKgFrC1PMJg&usqp=CAU" class="card-img-top drum-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Play the Drum</h5>
+          <p class="card-text">Have fun playing the drums, or you can use it as a ending sound for a bad joke.</p>
 
+          <%= link_to "Let's go!", drum_path, class: 'btn btn-primary'  %>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
